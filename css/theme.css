@@ -1,0 +1,93 @@
+:root {
+  --color-primary: #D4AF37;
+  --color-secondary: gray;
+  --color-accent: tan;
+
+  --font-primary: "Proxima Nova", Arial, sans-serif;
+}
+
+html {
+  font-family: var(--font-primary);
+}
+
+h1 {
+  font-family: var(--font-primary);
+  font-weight: bold;
+  font-size: 1.383rem;
+  line-height: 1.95rem;
+  font-color: #D4AF37;
+}
+
+h2 {
+  font-family: var(--font-primary);
+  font-size: 1.2962rem;
+  line-height: 1.95rem;
+  font-color: #D4AF37;
+}
+
+h3 {
+  font-family: var(--font-primary);
+  font-size: 1.2148rem;
+  line-height: 1.625rem;
+  font-color: gray;
+}
+
+ul {
+  font-family: var(--font-primary);
+  font-size: 1.2148rem;
+  line-height: 1.625rem;
+  font-color: gray;
+  text-decoration: bullets;
+}
+
+ol {
+  font-family: var(--font-primary);
+  font-size: 1.2148rem;
+  line-height: 1.625rem;
+  font-color: gray;
+  text-decoration: bullets;
+}
+
+dl {
+
+}
+
+a {
+  font-family: var(--font-primary);
+  font-style: italic;
+  font-size: 1.2148rem;
+  line-height: 1.625rem;
+}
+
+blockquote {
+  font-family: var(--font-primary);
+  font-size: 1.2148rem;
+  line-height: 1.625rem;
+}
+
+cite {
+  font-family: var(--font-primary);
+  font-size: 1.2148rem;
+  line-height: 1.625rem;
+}
+
+em {
+  font-family: var(--font-primary);
+  font-weight: bold;
+  font-size: 1.2148rem;
+  line-height: 1.625rem;
+  font-color: #D4AF37;
+}
+
+strong {
+  font-family: var(--font-primary);
+  font-size: 1.2148rem;
+  line-height: 1.625rem;
+  font-color: #D4AF37;
+}
+
+p {
+  font-family: var(--font-primary);
+  font-size: 1.2148rem;
+  line-height: 1.625rem;
+}
