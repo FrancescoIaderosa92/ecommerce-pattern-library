@@ -5,11 +5,10 @@ patternbot:
   description: |
     A small local vape organization specializing in premium vape products.
   colors:
-    text: "--color-primary"
     background: "--color-secondary"
-    accent: "--color-primary-light"
+    accent: "--color-primary"
     patterns:
-      brand.logos: "--color-primary-light"
+      brand.logos: "--color-primary"
   rationales:
     typefaces.primary: |
       Proxima Nova was selected because it is legible and can be used as both headings and body copy.

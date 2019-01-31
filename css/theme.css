@@ -1,6 +1,6 @@
 :root {
-  --color-primary: #D4AF37;
-  --color-secondary: gray;
+  --color-primary: #D8B146;
+  --color-secondary: #292929;
   --color-accent: tan;
 
   --font-primary: "Proxima Nova", Arial, sans-serif;
@@ -15,28 +15,28 @@ h1 {
   font-weight: bold;
   font-size: 1.383rem;
   line-height: 1.95rem;
-  font-color: #D4AF37;
+  color: var(--color-primary);
 }
 
 h2 {
   font-family: var(--font-primary);
   font-size: 1.2962rem;
   line-height: 1.95rem;
-  font-color: #D4AF37;
+  color: var(--color-primary);
 }
 
 h3 {
   font-family: var(--font-primary);
   font-size: 1.2148rem;
   line-height: 1.625rem;
-  font-color: gray;
+  color: var(--color-primary);
 }
 
 ul {
   font-family: var(--font-primary);
   font-size: 1.2148rem;
   line-height: 1.625rem;
-  font-color: gray;
+  color: var(--color-secondary);
   text-decoration: bullets;
 }
 
@@ -44,7 +44,7 @@ ol {
   font-family: var(--font-primary);
   font-size: 1.2148rem;
   line-height: 1.625rem;
-  font-color: gray;
+  color: var(--color-secondary);
   text-decoration: bullets;
 }
 
@@ -57,6 +57,15 @@ a {
   font-style: italic;
   font-size: 1.2148rem;
   line-height: 1.625rem;
+  color: var(--color-primary);
+}
+
+.link-no-underline {
+  text-decoration: none;
+}
+
+.link-no-underline:hover {
+  text-decoration: underline;
 }
 
 blockquote {
@@ -76,14 +85,77 @@ em {
   font-weight: bold;
   font-size: 1.2148rem;
   line-height: 1.625rem;
-  font-color: #D4AF37;
+  color: var(--color-primary);
 }
 
 strong {
   font-family: var(--font-primary);
   font-size: 1.2148rem;
   line-height: 1.625rem;
-  font-color: #D4AF37;
+  color: var(--color-primary);
+}
+
+del {
+  font-family: var(--font-primary);
+  font-size: 1.2148rem;
+  line-height: 1.625rem;font-family: var(--font-primary);
+  font-size: 1.2148rem;
+  line-height: 1.625rem;
+}
+
+ins {
+  font-family: var(--font-primary);
+  font-size: 1.2148rem;
+  line-height: 1.625rem;
+}
+
+abbr {
+  font-family: var(--font-primary);
+  font-size: 1.2148rem;
+  line-height: 1.625rem;
+}
+
+dfn {
+  font-family: var(--font-primary);
+  font-size: 1.2148rem;
+  line-height: 1.625rem;
+}
+
+i {
+  font-family: var(--font-primary);
+  font-size: 1.2148rem;
+  line-height: 1.625rem;
+}
+
+b {
+  font-family: var(--font-primary);
+  font-size: 1.2148rem;
+  line-height: 1.625rem;
+}
+
+mark {
+  font-family: var(--font-primary);
+  font-size: 1.2148rem;
+  line-height: 1.625rem;
+  color: var(--color-primary);
+}
+
+q {
+  font-family: var(--font-primary);
+  font-size: 1.2148rem;
+  line-height: 1.625rem;
+}
+
+s {
+  font-family: var(--font-primary);
+  font-size: 1.2148rem;
+  line-height: 1.625rem;
+}
+
+u {
+  font-family: var(--font-primary);
+  font-size: 1.2148rem;
+  line-height: 1.625rem;
 }
 
 p {
