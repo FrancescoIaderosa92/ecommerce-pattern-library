@@ -19,12 +19,12 @@ patternbot:
       The primary colours represent the premium brand on the website. This colour should be used for text on a white background only to keep the text ledgible.
     colors.secondary: |
       The secondary colour is to be used for the background on the website.
-  collections:
-    products:
-      output: true
+collections:
+  products:
+    output: true
 
-  defaults:
-    - scope:
-        path: _products
-      values:
-        layout: product
+defaults:
+  - scope:
+      path: _products
+    values:
+      layout: product
