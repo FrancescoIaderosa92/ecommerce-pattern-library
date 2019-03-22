@@ -1,0 +1,13 @@
+.nav-header {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 24pt;
+}
+.nav-products {
+  color:#fff;
+  text-decoration: none;
+}
+.nav-products li a {
+  color:#fff;
+  text-decoration: none;
+}

@@ -1,0 +1,10 @@
+<div class="banner relative">
+  <img class="img-flex" src="/images/hero-banner.jpg" alt="">
+  <div class="text-center banner-content pin-bc island-2 banner-content w-1">
+    <h2 class="tena push-0">{{include.limited-time}}</h2>
+    <p>{{include.text}}</p>
+    {% if include.button_url %}
+    {% pattern buttons/light url=include.button_url text=include.button_text%}
+    {% endif %}
+  </div>
+</div>

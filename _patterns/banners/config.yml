@@ -1,0 +1,20 @@
+title: "Banners"
+description: |
+  Banners should be used in almost every single page.
+
+patterns:
+  hero-banner:
+    fields:
+      - name: daily-deals
+        type: string
+        example: "Save up to 20% off your purchase"
+  promo-banner:
+    fields:
+      - name: limited-time
+        type: string
+        example: "Free Shipping of $75 or more"
+        required: false
+      - name: text
+        type: string
+        example: "Before taxes"
+        required: false
