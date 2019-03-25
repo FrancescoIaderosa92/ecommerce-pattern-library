@@ -1,0 +1,14 @@
+title: "Product Cards"
+description: |
+
+patterns:
+  product-card:
+    width: 400
+    description: |
+      The product card is used on the products page.
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.products[0]"
+          type: Product
