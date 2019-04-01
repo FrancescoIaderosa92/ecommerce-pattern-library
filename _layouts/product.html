@@ -2,6 +2,24 @@
 layout: default
 ---
 
-<h2>{{page.name}}</h2>
-<p>{{page.description}}</p>
-<img src="{{page.image}}" alt="">
+{% pattern banners/promo-banner limited-time="Free Shipping of $75 or more" text="Before taxes" %}
+
+<div>
+  <div class="grid pad-t">
+    <div class="unit xs-1-4 s-1-4 m-1-4 l-1-4">
+      {% pattern navigation/nav %}
+    </div>
+    <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 pad-t-2">
+      <h2>{{page.name}}</h2>
+      <div class="grid">
+        <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2">
+          <img class="img-flex" src="{{page.image}}" alt="">
+        </div>
+        <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 island">
+          <p>{{page.description}}</p>
+          {% pattern forms/quantity %}
+          {% pattern buttons/underline %}
+        </div>
+      </div>
+    </div>
+  </div>
