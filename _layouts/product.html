@@ -2,6 +2,52 @@
 layout: default
 ---
 
-<h2>{{page.name}}</h2>
-<p>{{page.description}}</p>
-<img src="{{page.image}}" alt="">
+{% pattern banners/promo-banner limited-time="Free Shipping of $75 or more" text="Before taxes" %}
+
+<div>
+  <div class="grid">
+    <div class="unit xs-1-4 s-1-4 m-1-4 l-1-4">
+      {% pattern navigation/nav %}
+    </div>
+    <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 island">
+      <h2 class="yotta">{{page.name}}</h2>
+      <div class="grid">
+        <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2">
+          <img class="img-flex" src="{{page.image}}" alt="">
+        </div>
+        <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 island">
+          <p>{{page.description}}</p>
+          <div>
+            {% pattern forms/quantity %}
+          </div>
+          <div class="pad-t-1-2">
+            {% pattern buttons/light %}
+          </div>
+
+        </div>
+      </div>
+      <div class="grid pad-t-2 gutter">
+        <div class="unit xs-1 s-1 m-1 l-1">
+          <h2> Other Options</h2>
+        </div>
+        <div class="unit xs-1-3 s-1-3 m-1-3 l-1-3 island-1-4">
+          <div>
+            <img class="img-flex" src="/images/blind-lion-blends.jpg" alt="">
+          </div>
+          <div>
+            <h3 class="milli push-0 pad-t-1-2">Mango Madness</h3>
+            <p class="micro push-0">Voted Best of the Year</p>
+          </div>
+        </div>
+        <div class="unit xs-1-3 s-1-3 m-1-3 l-1-3 island-1-4">
+          <div>
+            <img class="img-flex" src="/images/FruitTwist.jpg" alt="">
+          </div>
+          <div>
+            <h3 class="milli push-0 pad-t-1-2">Gummy Pears</h3>
+            <p class="micro push-0">Packed with flavour!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
