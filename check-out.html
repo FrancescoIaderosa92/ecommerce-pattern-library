@@ -1,0 +1,48 @@
+---
+layout: default
+highlight_nav: checkout
+---
+
+<div class="grid pad-t-2 push-2">
+  <div class="unit xs-1 s-1 m-1 l-1 push-2">
+    {% pattern banners/promo-banner limited-time="LIMITED TIME!" text="Check this cool product! 20% OFF" %}
+  </div>
+  <div class="unit xs-1 s-1 m-1-2 l-1-2">
+    <div class="gutter-2 grid">
+      <div class="unit xs-1 s-1 m-1 l-1-2 push">
+        {% pattern forms/name %}
+      </div>
+      <div class="unit xs-1 s-1 m-1 l-1-2 push">
+        {% pattern forms/email %}
+      </div>
+      <div class="unit xs-1 s-1 m-1 l-1-2 push">
+        {% pattern forms/creditcard %}
+      </div>
+      <div class="unit xs-1 s-1 m-1 l-1-2 push">
+        {% pattern forms/quantity %}
+      </div>
+      <div class="unit xs-1 s-1 m-1 l-1-2 push">
+        {% pattern forms/telephone %}
+      </div>
+      <div class="unit xs-1 s-1 m-1 l-1-2 push">
+        {% pattern forms/province %}
+      </div>
+      <div class="unit xs-1 s-1 m-1 l-1-2 push">
+        {% pattern forms/postalcode %}
+      </div>
+      <div class="unit xs-1 s-1 m-1 l-1-2 push">
+        {% pattern forms/expiry %}
+      </div>
+      <div class="unit xs-1 s-1 m-1 l-1-2 push">
+        {% pattern forms/city %}
+      </div>
+      <div class="unit xs-1 s-1 m-1 l-1-2 push">
+        {% pattern forms/dropdown %}
+      </div>
+    </div>
+  </div>
+  <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-2">
+    {% assign product=site.products[0] %}
+    {% pattern cards/product-card data=product %}
+  </div>
+</div>
