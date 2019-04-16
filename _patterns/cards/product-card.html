@@ -1,9 +1,9 @@
-<div class="card">
+<div class="card content-fill unit-content-distribute">
   <img class="img-flex" src="{{include.data.image}}" alt"">
-  <div class="island-1-2">
+  <div class="island-1-2 content-fill unit-content-distribute">
     <strong class="push-1-4 peta color-primary">${{include.data.price}}</strong>
     <h2 class="push-1-4">{{include.data.title}}</h2>
-    <p class="push-1-2">{{include.data.description}}</p>
+    <p class="push-1-2 content-fill">{{include.data.description}}</p>
     {% pattern buttons/light text="Buy Now" url=include.data.url %}
   </div>
 </div>
