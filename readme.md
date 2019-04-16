@@ -1,3 +1,11 @@
+# Vape Master
+
+## Introduction
+
+Vape Master has been a successful vape company for over 10 years. The company started back in 2009 by a couple of high school drop outs. The company has been at the same main location since it was established. The company is so successful that it will expand its operations to a new part of town soon. Come check out our store where you can find the top quality vape products at rock bottom prices every single time.
+
+---
+
 ## Installation
 
 The pattern library is a Jekyll & Patternbot based application, so it requires Ruby to be installed.
