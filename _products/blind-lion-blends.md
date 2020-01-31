@@ -1,9 +1,9 @@
 ---
-name: "blind-lion-blends"
+name: "high tops"
 description: |
-  Looking to get your vape on?
+  Want a blank canvas for your art?
 image: "/images/gold-shoes.jpg"
-price: 40
+price: 100
 colors:
   - "Yellow"
 shape: "Cylinder"

@@ -2,7 +2,7 @@
 name: "vape-breakfast-classics"
 description: |
   Looking to get your vape on?
-image: "/images/vape-breakfast-classics.jpg"
+image: "/images/gold-shoes.jpg"
 price: 70
 colors:
   - "Blue"

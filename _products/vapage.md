@@ -1,8 +1,8 @@
 ---
-name: "vapage"
+name: "low tops"
 description: |
-  Looking to get your vape on?
-image: "/images/vapage.jpg"
+  Rock these low tops
+image: "/images/gold-shoes.jpg"
 price: 30
 colors:
   - "Bronze"
