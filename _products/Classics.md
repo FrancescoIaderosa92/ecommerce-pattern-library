@@ -1,8 +1,8 @@
 ---
-name: "vape-5000"
+name: "Classics"
 description: |
-  Looking to get your vape on?
-image: "/images/gold-shoes.jpg"
+  Rockin' the Classics
+image: "/images/white-converse.jpg"
 price: 80
 colors:
   - "Tropical Orange"

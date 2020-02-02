@@ -4,9 +4,9 @@ patternbot:
   layouts:
     default: |
       The default layout should be used for almost every single page, it includes the website's primary header and footer.
-  title: "Vape Master"
+  title: "Colour Code"
   description: |
-    A small local vape organization specializing in premium vape products.
+    A small local shoe organization specializing in premium shoe products.
   colors:
     background: "--color-secondary"
     accent: "--color-primary"
