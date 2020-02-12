@@ -22,7 +22,7 @@ h2 {
   font-family: var(--font-primary);
   font-size: 1.2962rem;
   line-height: 1.95rem;
-  color: var(--color-primary);
+  color: var(--color-secondary);
 }
 
 h3 {
